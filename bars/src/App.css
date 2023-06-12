@@ -1,0 +1,47 @@
+.display-drinks {
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw;
+    grid-gap: 20px;
+    height: 65rem;
+    overflow-y: scroll;
+    border-radius: 5px;
+    padding-right: 0;
+}
+
+.display-drinks::-webkit-scrollbar {
+    display: none;
+}
+
+.details-section {
+    width: 20vw;
+}
+
+.details-image {
+    width:100%;
+}
+
+.favorites-section {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 58rem;
+    border-radius: 5px;
+    width:min-content;
+}
+
+.favorites-section::-webkit-scrollbar {
+    display:none;
+}
+
+button {
+    font-family: lemonMilk;
+    border: none;
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}

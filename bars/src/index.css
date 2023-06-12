@@ -1,0 +1,39 @@
+@font-face {
+    font-family: lemonMilk;
+    src: url("../public/img/LEMONMILK-Regular.otf") format("opentype");
+}
+
+#root {
+    display: flex;
+    justify-content: space-around;
+    font-family: lemonMilk;
+
+}
+
+h1 {
+    font-size: 4rem;
+    margin-left: 10vw;
+    max-width: fit-content;
+    font-family: lemonMilk;
+    text-decoration: none;
+    color:black;
+    display: flex;
+}
+
+h1:hover {
+    opacity: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.title-icon {
+    width: 5rem;
+    height: 5rem;
+}

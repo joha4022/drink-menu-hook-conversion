@@ -1,0 +1,16 @@
+.thumbnail-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.drink-name {
+    text-align: center;
+}
+
+.drink-id {
+    cursor: pointer;
+}
+
+.drink-id:hover {
+    opacity: 80%;
+}

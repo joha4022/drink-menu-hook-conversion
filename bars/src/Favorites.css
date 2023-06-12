@@ -1,0 +1,33 @@
+.favorite-img {
+    width: 10rem;
+    border-radius: 5px;
+}
+
+.favorite-img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.favorites {
+    height: 11rem;
+}
+
+a .remove-favorite {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: red;
+    opacity: 50%;
+    top: -90%;
+    left: 3%;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+
+    
+}
+
+.remove-favorite:hover {
+    background: red;
+    opacity: 70%;
+}
+
